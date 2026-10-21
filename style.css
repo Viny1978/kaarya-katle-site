@@ -1,0 +1,10 @@
+:root{--g:#1D5634;--ink:#18231C;--mut:#5C6B61;--bg:#F6F3EA;--card:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,"Noto Sans Kannada",system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+header{display:flex;gap:16px;align-items:center;margin-bottom:24px}
+header img{width:84px;height:84px;border-radius:20px}
+h1{font-size:28px;margin:0;color:var(--g)}h2{color:var(--g);margin-top:32px;font-size:20px}
+.sub{color:var(--mut);margin:2px 0 0}.card{background:var(--card);border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+a{color:var(--g)}footer{text-align:center;color:var(--mut);font-size:14px;margin-top:40px}
+footer img{height:40px;opacity:.8;display:block;margin:0 auto 6px}
+.en{color:var(--mut)}nav a{margin-right:16px}
